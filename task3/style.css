@@ -1,0 +1,39 @@
+html,body{
+	 	height: 100vh;
+	 	margin:0;
+	 	padding: 0;
+	 	background-color: #99CCFF;
+	 }
+	 p{
+	 	text-align: center;
+	 	color: white;
+	    font-family:üK‘Ì;
+	 }
+	 #backbutton{
+        margin:2% auto 10% 2%;  
+	 }
+	 #title{
+	 	text-align: center;	 
+     }
+    #text{
+    	margin: 15% auto;
+    	width: 80%;
+    	color: white;
+    	font-family:üK‘Ì;
+    	line-height: 2em;
+     }
+    .icon1,.icon2{
+    	display: inline-block;   	
+    }
+    #control{
+    	width: 100%;
+    	position: absolute;
+    	bottom: 15%;    	
+    }
+    .icon1{   	
+    	margin-left: 10%;
+    }
+    .icon2{
+    	float: right;
+        margin-right: 10%;       
+    }
