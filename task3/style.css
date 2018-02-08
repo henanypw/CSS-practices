@@ -1,20 +1,20 @@
-html,body{
-	 	height: 100vh;
+    html,body{
+	height: 100vh;
         width: 100vw;
-	 	margin:0;
-	 	padding: 0;
-	 	background-color: #66CCCC;
+	margin:0;
+	padding: 0;
+	background-color: #66CCCC;
 	 }
-	 p{
-	 	text-align: center;
-	 	color: white;
-	    font-family:üK‘Ì;
+    p{
+	text-align: center;
+	color: white;
+	font-family:Ã¼Kâ€˜ÃŒ;
 	 }
-	 #backbutton{
+    #backbutton{
         position: absolute;
         top: 2%;left: 2%;
 	 }  
-	 #title{
+    #title{
         width: 100%;
         text-align: center;
         position: absolute;
@@ -25,7 +25,7 @@ html,body{
         top: 35%;left: 10%;
     	width: 80%;
     	color: white;
-    	font-family:üK‘Ì;
+    	font-family:Ã¼Kâ€˜ÃŒ;
     	line-height: 2em;
      }
     #box{
