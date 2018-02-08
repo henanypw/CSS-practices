@@ -1,39 +1,44 @@
 html,body{
 	 	height: 100vh;
+	        width: 100vw;
 	 	margin:0;
 	 	padding: 0;
-	 	background-color: #99CCFF;
+	 	background-color: #66CCCC;
 	 }
 	 p{
 	 	text-align: center;
 	 	color: white;
-	    font-family:üK‘Ì;
+	        font-family:Ã¼Kâ€˜ÃŒ;
 	 }
 	 #backbutton{
-        margin:2% auto 10% 2%;  
-	 }
+                position: absolute;
+                top: 2%;left: 2%;
+	 }  
 	 #title{
-	 	text-align: center;	 
-     }
+                width: 100%;
+                text-align: center;
+                position: absolute;
+                top: 15%;
     #text{
-    	margin: 15% auto;
-    	width: 80%;
-    	color: white;
-    	font-family:üK‘Ì;
-    	line-height: 2em;
+    	        position: absolute;
+                top: 35%;left: 10%;
+    	        width: 80%;
+    	        color: white;
+    	        font-family:é»‘ä½“;
+    	        line-height: 2em;
      }
-    .icon1,.icon2{
-    	display: inline-block;   	
-    }
-    #control{
+    
+    #box{
     	width: 100%;
     	position: absolute;
-    	bottom: 15%;    	
+    	bottom: 10%;    	
     }
-    .icon1{   	
+    .icon1{  
+	display: inline-block;    
     	margin-left: 10%;
     }
     .icon2{
+	display: inline-block;
     	float: right;
         margin-right: 10%;       
     }
