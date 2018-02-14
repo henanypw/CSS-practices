@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task5-1</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<style type="text/css">
+	  body,html{
+		  margin: 0;
+		  padding: 0;
+		  height: 100%;
+		  width: 100%;
+      font-family: 微软雅黑;
+	  }
+    .head{
+    	width: 100%;
+    	height: 8vh;
+    	background-color: rgb(95,192,205);
+    	position: fixed;
+    	top: 0;
+    	z-index: 1;
+    }
+    .titlebox,.backbox{
+    	display: table;
+    	height: 100%;
+    	color: white;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+	.title,.back{
+		  display: table-cell;
+		  text-align: center;
+		  vertical-align: middle;
+	  }
+    .backbox{
+      position: absolute;
+      top: 0;left: 15px;
+    }
+	.titlebox{
+		  margin: 0 auto;
+	  }
+
+
+	.photo{
+		  width: 100%;
+		  height: 30vh;
+		  position: absolute;
+		  top: 8vh;
+		  background-image: url(images5-1/bg.png);
+		  background-repeat: no-repeat;
+		  background-size: 100% 100%;
+	  }
+	.picbox,.namebox{
+		  display: table;
+		  height: 100%;
+	  }
+    .pic,.name{
+    	display: table-cell;
+    	vertical-align: middle;	
+      color: white;
+    }
+    .namefont{
+      font-size: 1.3em;
+    }
+    .age{
+      margin-left: 15px;
+    }
+    .picbox{
+    	float: left;
+    	margin:auto 20px;
+    }
+
+
+    .skillbox{ 
+      position: absolute;
+      top: 38vh;
+      height: 10vh;
+      display: table;
+      width: 100%; 
+      border-bottom: solid 1px rgb(153,153,153);
+    }
+    .skill{
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 10px;
+    }
+    .skilltext{
+      border-left: solid 5px rgb(95,192,205);
+      padding-left: 10px;
+    } 
+    
+
+    .content{
+    	position: absolute;
+    	top: 48vh;
+    	width: 100%;
+      height: 350px;
+      border-collapse: collapse;
+      margin-bottom: 10vh; /*轮动条到最低端*/
+    }
+    td{
+      border-bottom: solid 1px rgb(153,153,153);
+      vertical-align: middle;
+     }
+    .col1{
+      width: 100px;
+     }
+     .colborder{
+      padding-left: 15px;
+      padding-right: 15px;
+      border-right: solid 1px rgb(153,153,153);
+      color: rgb(153,153,153);
+     }
+     .col2,.col0{
+      padding-left: 15px;
+     }
+     .colspace{
+      padding-right: 20px;
+     }
+     .fontcolor{
+      color: rgb(226,97,99);
+     }
+
+
+    .footbox{
+    	position: fixed;
+    	bottom: 0;
+    	width: 100%;
+      height: 8vh;
+    	text-align: center;	
+    	table-layout: fixed;
+      background-color: white;
+    }
+    
+    .footcontent1,.footcontent2{
+      border: solid rgb(95,192,205);
+      border-radius: 8px;
+      vertical-align: middle;
+
+    }
+    .footcontent1{
+      color: rgb(95,192,205);
+      background-color: white;
+    }
+    .footcontent2{
+      color: white;
+      background-color: rgb(95,192,205);
+    }
+
+    .tablespace{
+      border: none;
+    	width: 15px;
+    }
+
+   
+</style>
+</head>
+<body>
+
+<div class="head">
+	<div class="backbox"><div class="back"><</div></div>
+  <div class="titlebox"><div class="title">个人主页</div></div>
+</div>
+
+
+<div class="photo">
+	<div class="picbox"><div class="pic"><img src="images5-1/头像.png"></div></div>
+	<div class="namebox"><p class="name"><span class="namefont">徐士林 <span class="age">55岁</span></span><br><img  class="location" src="images5-1/坐标.png">京城·四方·报纸林</p></div>
+</div>
+
+<div class="skillbox">
+<div class="skill"><div class="skilltext">专业技能</div></div>
+</div>
+
+
+<table class="content">
+  <tr>
+    <td class="tablespace"></td>
+    <td class="col2" colspan="2"><img src="images5-1/star1.png"><span class="colspace">住家</span><img src="images5-1/star1.png">
+    不含餐</td>
+    <td class="tablespace"></td>
+  </tr> 
+  <tr>
+    <td class="tablespace"></td>
+    <td class="col1"><div class="colborder">从业年限</div></td>
+    <td><div class="col2">0~3年</div></td>
+    <td class="tablespace"></td>
+  </tr>
+  <tr>
+    <td class="tablespace"></td>
+    <td class="col1"><div class="colborder">工作时间</div></td>
+    <td><div class="col2">全天</div></td>
+    <td class="tablespace"></td>
+  </tr>
+  <tr>
+    <td class="tablespace"></td>
+    <td class="col1"><div class="colborder">服务价格</div></td>
+    <td><div class="col2"><font class="fontcolor">25元/h</font></div></td>
+    <td class="tablespace"></td>
+  </tr>
+  <tr>
+    <td class="tablespace"></td>
+    <td class="col1"><div class="colborder">自我介绍</div></td>
+    <td class="col2">可以这可以那可以这可以那可以这可以那可以这可以那可以这可以那可以这可以那可以这可以那</td>
+    <td class="tablespace"></td>
+  </tr>
+</table>
+
+
+
+<table class="footbox">
+	<tr>
+		<td class="tablespace"></td>
+		<td class="footcontent1">留言</td>
+		<td class="tablespace"></td>
+		<td class="footcontent2">联系方式</td>
+		<td class="tablespace"></td>
+	</tr>
+</table>
+</body>
+</html>
