@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task6</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.2.1/jquery.slim.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="bootstrap-switch.css">
+	
+    <script src="bootstrap-switch.js"></script>
+
+
+
+   <script type="text/javascript">  
+        $(function(){  
+            /*初始化开关控件*/  
+            $("[name='mySwitch']").bootstrapSwitch({
+                state:false,//勾选状态,对应checkbox的checked属性  
+                size : "normal",//大小,默认为null(与normal大小相同),值可为null,'mini','small','normal','large'  
+                             
+                inverse:true,//开关方向  
+                onColor:'danger',//        表示选中文本的背景色,默认为'primary',值可为'primary','info','success','warning','danger','default'  
+                offColor:'info',//        表示位选中文本的背景色,默认为'default',值可为'primary','info','success',warning','danger','default' 
+                onText:"不喜欢",
+                offText:"喜欢",
+                    });  
+        });  
+    </script> 
+
+
+
+    <style type="text/css">
+        #d1{
+            border: solid;
+            border-radius: 10px;
+
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+<div >
+    <input type="checkbox" name="mySwitch" id="d1" checked />
+</div>
+
+</body>
+</html>
