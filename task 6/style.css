@@ -1,0 +1,132 @@
+body,html{
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+      }
+
+      /*header*/
+      .headbox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(95,192,205);
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 10vh;
+      } 
+      .head-left,.head-right{
+        padding: 2.2vh 3vh;
+        border-radius: 10px;
+      } 
+      .head-left{
+        margin-right: -10px;/*div?õ∆ç›àÍãN*/
+        background-color: rgb(85,168,179);
+        color: white;
+      }
+      .head-right{
+        background-color: white;
+        color: rgb(95,192,205);
+      }
+      .head-pic{
+        position: absolute;
+        right: 5%;
+      }
+
+     /*â∫ùfçÿ?*/
+     .dropdown-menu{      
+     min-width: 100%;
+     }
+     .nav.navbar-nav li {
+     width: 30vw;
+     float: none;
+     display: inline-block;    
+     border-right: solid rgb(225,229,231) 1px;
+     }
+    .caret{
+     margin-left: 10%;
+     }
+   .nav.navbar-nav{
+     position: absolute;
+     top: 11vh;
+     margin: 0;
+     text-align: center;
+     width: 100%;
+     }
+
+   .iconbox{ 
+     height: 100px;
+     width: 35px;
+     float: left;  
+   }
+    .icon1,.icon2{
+        width: 25px;
+        height: 24px;
+        background: url(images/06.png) no-repeat ;
+    }    
+    .icon1{
+        margin-bottom: 40px;
+        background-position: 0 0;
+    }
+    .icon2{
+        background-position: 0 -95px;
+    }
+
+    
+   .contentbox{
+    position: absolute;
+    top: 19vh;
+    width: 100%;
+    border-top:solid rgb(225,229,231) 1px;
+    margin-bottom: 100px;
+    }
+    .content{ 
+    padding:10px 15px 0px 5%;
+    border-bottom: solid rgb(225,229,231) 1px;
+    }
+    .content-right{
+    height: 100px;
+    margin-left: 40px;            
+    }
+    .contentspace{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    }
+    .content-text{
+        color: red;
+    }
+    .content-pic{
+        margin-left: 15px;
+    }
+    
+    .footbox{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    z-index: 1;
+    }
+    .bottomicon1,.bottomicon2,.bottomicon3{
+    display: inline-block;
+    background: url(images/08.png) no-repeat ;    
+    }
+    .bottomicon1{
+    width: 43px;height: 76px;
+    background-position: 1px 0px;
+    }
+    .bottomicon2{
+    width: 80px;height: 78px;
+    background-position: -110px 0;
+    }
+    .bottomicon3{
+    width: 43px;height: 76px;
+    background-position: -252px 0px;
+    }
