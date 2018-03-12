@@ -36,31 +36,35 @@ body,html{
       }
 
      /*â∫ùfçÿ?*/
-     .dropdown-menu{      
-     min-width: 100%;
-     }
-     .nav.navbar-nav li {
-     width: 30vw;
-     float: none;
-     display: inline-block;    
-     border-right: solid rgb(225,229,231) 1px;
-     }
-    .caret{
-     margin-left: 10%;
-     }
-   .nav.navbar-nav{
-     position: absolute;
-     top: 11vh;
-     margin: 0;
-     text-align: center;
-     width: 100%;
-     }
+      .dropdown-menu{
+        min-width: 100%;
+      }
+      .container{
+        position: relative;
+        top: 11vh;
+      }
+      .col-space{
+        display: inline-block;
+        width: 30%;
+      }
+      .col-xs-4{
+        border-right: solid rgb(225,229,231) 1.5px;
+      }
+      .btn-group{
+        width: 100%;  
+      }
+      button{
+        background-color: transparent;
+        color:  rgb(153,153,153);
+        width: 100%;
+      }
 
-   .iconbox{ 
+   
+    .iconbox{ 
      height: 100px;
      width: 35px;
      float: left;  
-   }
+    }
     .icon1,.icon2{
         width: 25px;
         height: 24px;
@@ -76,15 +80,15 @@ body,html{
 
     
    .contentbox{
-    position: absolute;
-    top: 19vh;
+    position: relative;
+    top: 13vh;
     width: 100%;
-    border-top:solid rgb(225,229,231) 1px;
+    border-top:solid rgb(225,229,231) 1.5px;
     margin-bottom: 100px;
     }
     .content{ 
     padding:10px 15px 0px 5%;
-    border-bottom: solid rgb(225,229,231) 1px;
+    border-bottom: solid rgb(225,229,231) 1.5px;
     }
     .content-right{
     height: 100px;
@@ -96,6 +100,7 @@ body,html{
     justify-content: space-between;
     margin-top: 7px;
     margin-bottom: 7px;
+    font-weight: bold;
     }
     .content-text{
         color: red;
@@ -103,7 +108,11 @@ body,html{
     .content-pic{
         margin-left: 15px;
     }
+    .contentcolor{
+         color:  rgb(153,153,153);
+    }
     
+    /*íÍïîå≈íË?*/
     .footbox{
     position: fixed;
     bottom: 0px;
@@ -116,10 +125,12 @@ body,html{
     }
     .bottomicon1,.bottomicon2,.bottomicon3{
     display: inline-block;
-    background: url(images/08.png) no-repeat ;    
+    background: url(images/08.png) no-repeat;
+    background-color: transparent;  
+    border: solid transparent;
     }
     .bottomicon1{
-    width: 43px;height: 76px;
+    width: 43px;height: 40px;
     background-position: 1px 0px;
     }
     .bottomicon2{
@@ -127,6 +138,16 @@ body,html{
     background-position: -110px 0;
     }
     .bottomicon3{
-    width: 43px;height: 76px;
+    width: 43px;height: 40px;
     background-position: -252px 0px;
+    }
+    .bottomtext1,.bottomtext2{
+        border: solid transparent;
+        text-align: center;
+    }
+    .bottomtext1{
+        color: rgb(95,192,205);
+    }
+    .bottomtext2{
+        color: rgb(153,153,153);
     }
